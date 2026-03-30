@@ -1,0 +1,17 @@
+# Initialize the local directory as a Git repository
+git init
+
+# Add all files to the staging area
+git add .
+
+# Commit the changes
+git commit -m "Initial commit"
+
+# Link your local repo to the GitHub repository
+git remote add origin https://github.com/aditya8161/spring-security-projects.git
+
+# Rename branch to main (standard for GitHub)
+git branch -M main
+
+# Push the code (use -f ONLY if the repo on GitHub is empty or you want to overwrite it)
+git push -u origin main

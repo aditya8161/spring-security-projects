@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo1
+    username: root
+    password: pass123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+#logging:
+#  .level:
+#    org.springframework.security: debug
